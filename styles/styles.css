@@ -153,7 +153,7 @@ header .hamburger {
 .hero {
     position: relative;
     height: 85vh;
-    background-image: url("assets/images/backgroundPic.jpeg"); /* Replace with your image path */
+    background-image: url("/assets/images/backgroundPic.jpeg"); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents image repetition */
