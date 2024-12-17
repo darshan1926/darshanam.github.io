@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan A M - AI Engineer Portfolio</title>
+    <link rel="stylesheet" href="\styles\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></script>
+    <script src="\scripts\scripts.js" defer></script>
+</head>
+
+<body >
+    <header>
+        <div>Darshan A M</div>
+        <button class="hamburger" id="hamburger">☰</button>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <img src="\assets\images\darshan_photo.jpg" alt="Darshan A M">
+        <h1>Hey, I'm Darshan</h1>
+        <p>An AI Engineer & Data Scientist, Revolutionizing industries through AI and analytics.</p>
+        <button class="cta" onclick="scrollToSection('about')">Learn More</button>
+    </div>
+
+    <canvas id="background"></canvas>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated AI Engineer and Data Scientist with a passion for transforming data into actionable insights and driving innovation. With a strong foundation in machine learning, deep learning, and AI, I specialize in creating scalable solutions that enhance efficiency, reduce costs, and foster business growth. I thrive on solving complex challenges and delivering results that exceed client expectations. Let me help you unlock the potential of your data and create cutting-edge AI-driven strategies tailored to your needs.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                <p>
+                    <span><i class="fas fa-chart-line"></i> Probability & Statistics</span>
+                    <span><i class="fas fa-chart-bar"></i> Data Analytics & Visualization</span>
+                    <span><i class="fas fa-cogs"></i> Machine Learning</span>
+                    <span><i class="fas fa-brain"></i> Deep Learning</span>
+                    <span><i class="fas fa-language"></i> NLP</span>
+                    <span><i class="fas fa-eye"></i> Computer Vision</span>
+                    <span><i class="fab fa-stable-diffusion"></i> Stable Diffusion</span>
+                    <span><i class="fas fa-comments"></i> LLMs</span>
+                    <span><i class="fas fa-toolbox"></i> Frameworks & Libraries</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-cogs"></i> MLOps</h3>
+                <p>
+                    <span><i class="fas fa-cloud"></i> MLflow</span>
+                    <span><i class="fas fa-database"></i> DVC</span>
+                    <span><i class="fas fa-code-branch"></i> Langchain</span>
+                    <span><i class="fab fa-github"></i> LlamaIndex</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                <p>
+                    <span><i class="fab fa-html5"></i> HTML</span>
+                    <span><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span><i class="fab fa-js"></i> JavaScript</span>
+                    <span><i class="fab fa-react"></i> Reactjs</span>
+                    <span><i class="fab fa-node"></i> Nodejs</span>
+                    <span><i class="fas fa-server"></i> FastAPI</span>
+                    <span><i class="fas fa-flask"></i> Flask</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fab fa-aws"></i> Cloud Technology</h3>
+                <p>
+                    <span><i class="fab fa-aws"></i> AWS</span>
+                    <span><i class="fab fa-microsoft"></i> Azure</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <p>
+                    <span><i class="fas fa-database"></i> MySQL</span>
+                    <span><i class="fas fa-database"></i> MongoDB</span>
+                    <span><i class="fas fa-database"></i> PostgreSQL</span>
+                    <span><i class="fas fa-database"></i> CassandraDB</span>
+                    <span><i class="fas fa-database"></i> Neo4j</span>
+                    <span><i class="fas fa-database"></i> HBase</span>
+                    <span><i class="fas fa-database"></i> Hive</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-cogs"></i> Other</h3>
+                <p>
+                    <span><i class="fab fa-docker"></i> Docker</span>
+                    <span><i class="fab fa-cogs"></i> Kubernetes</span>
+                    <span><i class="fas fa-code-branch"></i> CI/CD Tools (Jenkins)</span>
+                    <span><i class="fas fa-cloud-upload-alt"></i> Airflow</span>
+                    <span><i class="fab fa-git"></i> Git</span>
+                    <span><i class="fab fa-tableau"></i> Tableau</span>
+                    <span><i class="fab fa-cogs"></i> Hadoop Big Data</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p> I have over 2+ years of real-world experience and have worked on 10 industrial projects.</p>
+        <div class="experience">
+            <div class="card">
+                <h3><i class="fas fa-briefcase"></i> Freelancer</h3>
+                <p class="details">
+                    <span><i class="fas fa-calendar-alt"></i> Aug 2024 - Present</span>
+                    <span><i class="fas fa-building"></i> Independent</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-chart-line"></i> Business Analyst</h3>
+                <p class="details">
+                    <span><i class="fas fa-calendar-alt"></i> Jun 2023 - Jul 2024</span>
+                    <span><i class="fas fa-building"></i> Pangea Tech Solution Pvt Ltd</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Bangalore, India</span>
+                </p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-user-graduate"></i> Intern</h3>
+                <p class="details">
+                    <span><i class="fas fa-calendar-alt"></i> Oct 2022 - Feb 2023</span>
+                    <span><i class="fas fa-building"></i> iNeuron</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Bangalore, India</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <p>Services that I offer as a freelancer.</p>
+        <div class="service-cards">
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>Artificial Intelligence</h3>
+                <a href="#" class="view-more" data-target="ai-modal">View More →</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <a href="#" class="view-more" data-target="web-modal">View More →</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>Training & Mentoring</h3>
+                <a href="#" class="view-more" data-target="mentoring-modal">View More →</a>
+            </div>
+        </div>
+
+        <!-- AI Modal -->
+        <div class="modal" id="ai-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Artificial Intelligence</h3>
+                <p>Artificial Intelligence is the future.</p>
+                <p>I develop end-to-end AI-based systems in Computer Vision, NLP, Facial Recognition, and other AI sub-domains.</p>
+                <p>I can also offer support for existing AI-based projects & research in your firm.</p>
+                <p>Low-latency, high real-time performance, & scalability are my priorities.</p>
+            </div>
+        </div>
+
+        <!-- Web Development Modal -->
+        <div class="modal" id="web-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Web Development</h3>
+                <p>I design and develop responsive and user-friendly websites.</p>
+                <p>From front-end to back-end, I provide full-stack development services.</p>
+                <p>Performance, SEO, and scalability are my key focuses.</p>
+            </div>
+        </div>
+
+        <!-- Mentoring Modal -->
+        <div class="modal" id="mentoring-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Training & Mentoring</h3>
+                <p>I provide personalized training sessions on AI, ML, and Web Development.</p>
+                <p>Guidance for both beginners and advanced learners.</p>
+                <p>Customized mentoring plans to suit your goals.</p>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h1 class="portfolio-title">Portfolio</h1>
+        <p class="portfolio-subtitle">My Works, Projects & Contributions</p>
+        <div class="carousel-container">  
+            <!-- Carousel Items -->
+            <div class="carousel-wrapper">
+                <!-- Project 1 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\predictive_maintence.jpg" alt="Aircraft Maintenance">
+                        </div>
+                        <div class="project-details">
+                            <h3>Aircraft Maintenance</h3>
+                            <p>Developed an Aircraft Maintenance project leveraging a machine learning model to predict the Remaining Useful Life (RUL) of turbofan engines with 89% accuracy. The project aids in making data-driven decisions on engine reuse or replacement, optimizing maintenance schedules. This approach enhances operational efficiency and reduces downtime.</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/predictive_maintenance" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\brain_.png" alt="Brain Tumor Classification">
+                        </div>
+                        <div class="project-details">
+                            <h3>Brain Tumor Classification</h3>
+                            <p>Developed a Brain Tumor Classification system using machine learning to accurately identify tumor types from medical imaging data. The model enhances diagnostic precision, enabling early detection and personalized treatment planning. This solution streamlines medical workflows and improves patient outcomes.</p>    
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/brain_tomar_classification" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\Skin-Diseases-Classification.png" alt="Skin Disease Classification">
+                        </div>
+                        <div class="project-details">
+                            <h3>Skin Disease Classification</h3>
+                            <p>Built a Skin Disease Classification system using machine learning to accurately diagnose various skin conditions from images. The model assists dermatologists in early detection and treatment, improving diagnostic speed and accuracy. This innovation enhances patient care and streamlines healthcare processes.</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/skin_disease_classification" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\house_price_prediction.png" alt="House Price Prediction">
+                        </div>
+                        <div class="project-details">
+                            <h3>House Price Prediction</h3>
+                            <p>Developed a House Price Prediction model using machine learning to estimate property prices based on features like location, size, and amenities. The solution provides accurate valuations, empowering buyers, sellers, and real estate agents to make informed decisions. This tool enhances market efficiency and supports financial planning.</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/house_price_prediction" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\chatbot.jpg" alt="Tribot Development">
+                        </div>
+                        <div class="project-details">
+                            <h3>Tribot Development</h3>
+                            <p>Led the development of TRIBOT, a sophisticated multi-model application integrating advanced AI techniques for automation and decision-making. The platform leverages machine learning, NLP, and computer vision to deliver high-performance solutions across various domains. TRIBOT enhances operational efficiency and drives innovation through intelligent, adaptive workflows.(under development)</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/CHAT-BOT-WITH-SD" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\stock-market-or-forex-trading-vector.jpg" alt="SalgoTrading Platform">
+                        </div>
+                        <div class="project-details">
+                            <h3>Stock Market AlgoTrading Platform</h3>
+                            <p>Developed a Stock Market Algorithmic Trading platform leveraging machine learning and real-time data analysis for automated trading decisions. The system analyzes historical and live market data to identify profitable opportunities, optimizing investment strategies. This platform enhances trading efficiency, reduces risks, and maximizes returns.(under development)</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/StockMarketAnalysis" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="project-logo">
+                            <img src="\assets\images\head_segmentation.png" alt="Head Segmentation">
+                        </div>
+                        <div class="project-details">
+                            <h3>Head Segmentation</h3>
+                            <p>Developed a Head Segmentation model using computer vision to accurately detect and segment head regions in images. This solution is crucial for applications in medical imaging, surveillance, and human-computer interaction. It enhances object detection and provides precise data for further analysis and decision-making.</p>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/darshan1926/head_segmentation" target="_blank" class="project-link">View &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 8 -->
+            <div class="carousel-item">
+                <div class="carousel-item-content">
+                    <div class="project-logo">
+                        <img src="\assets\images\AI_assistent.jpg" alt="Ai sales assistant">
+                    </div>
+                    <div class="project-details">
+                        <h3>Ai sales assistant</h3>
+                        <p>Developed an AI Assistant powered by natural language processing and machine learning, designed to understand and respond to user queries effectively. It automates tasks, provides intelligent recommendations, and improves user experience through personalized interactions. This assistant enhances productivity by seamlessly integrating into daily workflows and offering real-time support.(under development)</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/darshan1926/Ai-powered-sales-assistant" target="_blank" class="project-link">View &rarr;</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+            <!-- Left Navigation -->
+            <button id="prevBtn" class="carousel-nav">&lt;</button>
+            <!-- Right Navigation -->
+            <button id="nextBtn" class="carousel-nav">&gt;</button>
+        </div>
+    </section>
+    <section class="coming-soon-section" id="blogs">
+        <h2>Blogs</h2>
+        <div class="coming-soon-message">
+            <h3>Coming Soon!</h3>
+            <p>Stay tuned for future blog posts!</p>
+        </div>
+    </section>
+    
+    <section class="coming-soon-section" id="research">
+        <h2>Research</h2>
+        <div class="coming-soon-message">
+            <h3>Coming Soon!</h3>
+            <p>Our research section will be live soon. Check back for updates.</p>
+        </div>
+    </section>    
+    <section id="contact">
+        <h2>Contact</h2>
+        <div>
+            <a href="https://github.com/darshan1926" target="_blank" style="margin-right: 10px;"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/darshanam1926" target="_blank" style="margin-right: 10px;"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="mailto:darshudanu311@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a741f70d-775c-4bf3-bc6d-e89809b7adc8">
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Darshan A M. All Rights Reserved.
+    </footer>
+    
+</body>
+
+</html>
